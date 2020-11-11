@@ -247,6 +247,10 @@
     <Compile Include="Migrations\202011102019234_PopulateMovieGenreIdColumn.Designer.cs">
       <DependentUpon>202011102019234_PopulateMovieGenreIdColumn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011111944365_MakeNameRequired.cs" />
+    <Compile Include="Migrations\202011111944365_MakeNameRequired.Designer.cs">
+      <DependentUpon>202011111944365_MakeNameRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -254,7 +258,9 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\NumInStockRange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
@@ -396,6 +402,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011102019234_PopulateMovieGenreIdColumn.resx">
       <DependentUpon>202011102019234_PopulateMovieGenreIdColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011111944365_MakeNameRequired.resx">
+      <DependentUpon>202011111944365_MakeNameRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

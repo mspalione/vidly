@@ -125,3 +125,4 @@ C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMov
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovies.resources
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieGenreIdColumn.resources
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieGenreIdColumn.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.MakeNameRequired.resources
