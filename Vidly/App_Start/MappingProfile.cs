@@ -21,12 +21,18 @@ namespace Vidly.App_Start
             To resolve this, you need to tell AutoMapper to ignore Id during mapping of a CustomerDto to Customer.
             */
 
-            Mapper.CreateMap<Customer, CustomerDto>()
+
+            // Domain to DTO
+            Mapper.CreateMap<Movie, MovieDto>();
+            Mapper.CreateMap<Customer, CustomerDto>();
+            Mapper.CreateMap<MembershipType, MembershipTypeDto>();
+
+            //DTO to Domain
+            Mapper.CreateMap<MovieDto, Movie>()
                 .ForMember(c => c.Id, opt => opt.Ignore());
-            Mapper.CreateMap<CustomerDto, Customer>();
-            Mapper.CreateMap<Movie, MovieDto>()
+
+            Mapper.CreateMap<CustomerDto, Customer>()
                 .ForMember(c => c.Id, opt => opt.Ignore());
-            Mapper.CreateMap<MovieDto, Movie>();
         }
     }
 }
