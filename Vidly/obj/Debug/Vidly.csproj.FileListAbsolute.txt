@@ -126,3 +126,9 @@ C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovies
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieGenreIdColumn.resources
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieGenreIdColumn.resources
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.MakeNameRequired.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
