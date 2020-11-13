@@ -8,16 +8,17 @@ using System.Web.Http;
 using AutoMapper;
 using Vidly.Dtos;
 using Vidly.Models;
+using DbContext = Vidly.Models.DbContext;
 
 namespace Vidly.Controllers.Api
 {
     public class CustomersController : ApiController
     {
-        private ApplicationDbContext _context;
+        private DbContext.ApplicationDbContext _context;
 
         public CustomersController()
         {
-            _context = new ApplicationDbContext();
+            _context = new DbContext.ApplicationDbContext();
         }
 
         // GET /api/customers

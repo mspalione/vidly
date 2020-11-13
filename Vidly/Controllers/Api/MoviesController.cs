@@ -8,16 +8,17 @@ using System.Web.Http;
 using AutoMapper;
 using Vidly.Dtos;
 using Vidly.Models;
+using DbContext = Vidly.Models.DbContext;
 
 namespace Vidly.Controllers.Api
 {
     public class MoviesController : ApiController
     {
-        private ApplicationDbContext _context;
+        private DbContext.ApplicationDbContext _context;
 
         public MoviesController()
         {
-            _context = new ApplicationDbContext();
+            _context = new DbContext.ApplicationDbContext();
         }
 
         //Get /api/movies
@@ -44,6 +45,7 @@ namespace Vidly.Controllers.Api
 
         //POST api/movies
         [HttpPost]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
             if (!ModelState.IsValid)
@@ -60,6 +62,7 @@ namespace Vidly.Controllers.Api
 
         //PUT /api/customers/1
         [HttpPut]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult UpdateMovie(int id, MovieDto movieDto)
         {
             if(!ModelState.IsValid)
@@ -79,6 +82,7 @@ namespace Vidly.Controllers.Api
 
         //DELETE /api/movies/1
         [HttpDelete]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult DeleteMovie(int id)
         {
             var movieInDb = _context.Movies.SingleOrDefault(m => m.Id == id);

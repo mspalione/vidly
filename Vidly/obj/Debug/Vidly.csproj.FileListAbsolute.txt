@@ -134,3 +134,8 @@ C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Users\mspalione\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Users\mspalione\source\repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\mspalione\source\repos\Vidly\Vidly\bin\AutoMapper.xml
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.EditAspNetRolesName.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.EditAspNetUserRoles.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources

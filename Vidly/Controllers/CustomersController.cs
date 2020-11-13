@@ -6,16 +6,17 @@ using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
+using DbContext = Vidly.Models.DbContext;
 
 namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
-        private ApplicationDbContext _context;
+        private DbContext.ApplicationDbContext _context;
 
         public CustomersController()
         {
-            _context = new ApplicationDbContext();
+            _context = new DbContext.ApplicationDbContext();
         }
 
         protected override void Dispose(bool disposing)

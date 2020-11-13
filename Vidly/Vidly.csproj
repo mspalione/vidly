@@ -271,16 +271,38 @@
     <Compile Include="Migrations\202011111944365_MakeNameRequired.Designer.cs">
       <DependentUpon>202011111944365_MakeNameRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011131506583_SeedUsers.cs" />
+    <Compile Include="Migrations\202011131506583_SeedUsers.Designer.cs">
+      <DependentUpon>202011131506583_SeedUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011131539341_EditAspNetRolesName.cs" />
+    <Compile Include="Migrations\202011131539341_EditAspNetRolesName.Designer.cs">
+      <DependentUpon>202011131539341_EditAspNetRolesName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011131605368_EditAspNetUserRoles.cs" />
+    <Compile Include="Migrations\202011131605368_EditAspNetUserRoles.Designer.cs">
+      <DependentUpon>202011131605368_EditAspNetUserRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011131620242_AddDrivingLicenseToApplicationUser.cs" />
+    <Compile Include="Migrations\202011131620242_AddDrivingLicenseToApplicationUser.Designer.cs">
+      <DependentUpon>202011131620242_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011131902289_AddPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\202011131902289_AddPhoneToApplicationUser.Designer.cs">
+      <DependentUpon>202011131902289_AddPhoneToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\DbContext.cs" />
     <Compile Include="Models\Genre.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\AppUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\NumInStockRange.cs" />
+    <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
@@ -582,11 +604,12 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
-    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\MovieDetails.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
+    <Content Include="Views\Movies\ReadOnlyList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -661,6 +684,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011111944365_MakeNameRequired.resx">
       <DependentUpon>202011111944365_MakeNameRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011131506583_SeedUsers.resx">
+      <DependentUpon>202011131506583_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011131539341_EditAspNetRolesName.resx">
+      <DependentUpon>202011131539341_EditAspNetRolesName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011131605368_EditAspNetUserRoles.resx">
+      <DependentUpon>202011131605368_EditAspNetUserRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011131620242_AddDrivingLicenseToApplicationUser.resx">
+      <DependentUpon>202011131620242_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011131902289_AddPhoneToApplicationUser.resx">
+      <DependentUpon>202011131902289_AddPhoneToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
