@@ -139,3 +139,11 @@ C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.EditAspNe
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.EditAspNetUserRoles.resources
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.RentalModel.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumAvailableToMovie.resources
+C:\Users\mspalione\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetNumAvailableToNumInStock.resources
